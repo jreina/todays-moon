@@ -1,0 +1,17 @@
+{
+  "name": "todays-moon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel .\\src\\index.html",
+    "build": "parcel build -d docs .\\src\\index.html"
+  },
+  "author": "Johnny Reina",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.11.0",
+    "ridiculous-moon-event": "^1.0.1"
+  }
+}

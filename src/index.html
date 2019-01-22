@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        background-color: #303030;
+      }
+      .jumbo {
+        width: 50vw;
+        padding: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 26vh;
+        border-radius: 5px;
+        background-color: #151515;
+        font-size: 32px;
+        font-family: Helvetica, sans-serif;
+        color: #659ccc;
+      }
+      em {
+        font-style: normal;
+        color: #cea952;
+        font-family: 'Fira Code', consolas;
+      }
+      @media screen and (max-width: 860px) {
+        .jumbo {
+          margin-top: 0;
+          width: unset;
+          margin: 10px;
+        }
+      }
+    </style>
+    <title>Today's moon event</title>
+  </head>
+  <body>
+    <script src="./app.js"></script>
+  </body>
+</html>
